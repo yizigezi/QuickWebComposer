@@ -1,0 +1,15 @@
+{
+  "name": "GitHub Integration",
+  "package": "org.quickutils.quickweb.composer.githubIntegration",
+  "author": "The QuickUtils Project",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "latest"
+  },
+  "permissions": [
+    "quickweb.composer.runSysCommand",
+    "quickweb.composer.localFile",
+    "quickweb.composer.lifecycle.onInit",
+    "quickweb.composer.types.service"
+  ]
+}

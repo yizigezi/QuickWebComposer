@@ -1,0 +1,20 @@
+{
+  "name": "quickwebapp",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "The QuickUtils Project&OpenWearWikiTeam@CoraTech",
+  "license": "LGPL-3.0-or-later",
+  "description": "A website runner for OpenWearWiki",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "semver": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}

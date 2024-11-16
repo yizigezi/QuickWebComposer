@@ -1,0 +1,15 @@
+{
+  "name": "htmlserver",
+  "package": "org.quickutils.quickweb.composer.htmlserver",
+  "author": "The QuickUtils Project",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "latest"
+  },
+  "permissions": [
+    "quickweb.composer.runSysCommand",
+    "quickweb.composer.localFile",
+    "quickweb.composer.lifecycle.onInit",
+    "quickweb.composer.providers.htmlServer"
+  ]
+}
